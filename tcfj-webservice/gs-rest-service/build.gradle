@@ -7,6 +7,10 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE")
+        classpath("org.springframework.jdbc.datasource.DriverManagerDataSource")
+        classpath("org.springframework.jdbc.core")
+        classpath("org.springframework.jdbc.core.simple")
+        classpath("org.springframework.jdbc.core.namedparam")
     }
 }
 
