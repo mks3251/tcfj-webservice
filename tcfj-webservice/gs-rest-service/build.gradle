@@ -28,6 +28,9 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    compile("org.springframework:spring-jdbc")
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.3'
+    compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.1.1'
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
